@@ -1,0 +1,952 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 15px;
+ 
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+header .navicon span{
+    color: white;
+}
+
+header .navicon{
+    display: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0.4rem 0rem;
+    
+   
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+header li{
+    
+    list-style: none;
+    
+}
+
+header ul{
+     display: flex;
+   
+    padding-top: 0.6rem;
+}
+
+header h4{
+ padding-top: 0.2rem;
+ padding-left: 1rem;
+}
+
+.header span{
+    padding-left: 0.8rem;
+    color: rgb(77, 70, 70);
+}
+
+
+/** Big Backgroun Starts **/
+
+.bigger-bg{
+    width: 100%;
+    background-image: url(Images/bg.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/** Banner Starts **/
+
+.banner{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.banner p{
+    line-height: 30px;
+}
+
+.banner a{
+    color: white;
+} 
+
+.banner span{
+    font-weight: bold;
+}
+.banner button{
+    padding: 14px 30px;
+    border: none;
+    border-radius: 4%;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: rgb(122, 54, 65);
+    margin-top: 30px;
+    
+}
+
+/** Banner Ends **/
+
+/** Three Section tarts **/
+
+.three-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-section img{
+    width: 100%;
+}
+
+.inner{
+    width: 30%;
+    /** float: left; **/
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    margin: 2rem 0rem;
+}
+.inner p{
+    color: gray;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 15px 0px;
+    background-color: white;
+}
+
+.inner button{
+    padding: 13px 29px;
+    background-color: #e9228f;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+/** Three Section Ends **/
+
+/** Four Section Starts **/
+
+
+
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textAndicon{
+    width: 45%;
+    
+}
+
+.four-section .headingFa{
+    display: flex;
+}
+
+.headingFa h3{
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.headingFa .icon{
+    width: 10%;
+}
+
+.headingFa .icon span{
+    font-size: 2rem;
+}
+
+.headingFa .heading{
+    padding-left: 1.5rem;
+}
+
+.textAndicon .para p{
+    padding-left: 4.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.four-section{
+    padding-top: 2.7rem;
+    padding-bottom: 3rem;
+}
+
+.textAndicon hr{
+    border-bottom: 1px solid #ddd;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding-top: 1.7rem;
+
+}
+
+.forPadding{
+    padding-top: 1.8rem;
+   
+}
+
+
+/** Four Section Ends **/
+
+/** Input Section Starts **/
+
+.ful-input{
+    width: 100%;
+    padding: 3rem 0rem;
+    background-color: #e9228f;
+    text-align: center;
+}
+
+.ful-input input{
+    width: 96%;
+    padding: 0.7rem 0.9rem;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+
+}
+
+.ful-input textarea{
+    width: 96%;
+    padding: 0.7rem 0.9rem;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+
+}
+
+.formInput ::placeholder{
+    color: rgb(182, 166, 166);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.formInput{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ful-input button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4%;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    background:none;
+    border: 2PX solid #ddd;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.formInput h1{
+    color: #f7eeee;
+   margin-bottom: 0;
+   font-weight: 700;
+}
+
+.formInput p{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2.8rem;
+    color: #ddd;
+    font-weight: 700;
+}
+/** Input Section Ends **/
+
+/** Footer Starts **/
+.footer{
+    width: 100%;
+    background-color: black;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;
+}
+
+.mid-section ul{
+    padding: 0;
+
+}
+
+.footer ul{
+    margin-top: 30px;
+    padding: 0px 10px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+}
+
+.mid-section li{
+    list-style: none;
+    
+}
+
+.mid-section a{
+    
+    border-radius: 100%;
+}
+
+.mid-section span{
+    margin: 0px 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.mid-section .no-border{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.mid-section .fa-facebook{
+    padding: 10px 15px;
+}
+
+.mid-section .fa-twitter{
+    padding: 10px 13px;
+}
+
+.mid-section .fa{
+    color: #ddd;
+}
+/** Footer Ends **/
+
+
+/**Media Query Starts **/
+
+@media only screen and (max-width:800px){
+    header{
+        padding: 0rem;
+    }
+
+    header a{
+        
+        text-decoration: none;
+        font-size: 0.9rem;            
+        margin-right: 1.1rem;            
+        font-weight: 400;
+                              
+    }
+
+    /**
+    header ul li{
+        display:inline-block;
+    }
+    **/
+
+    header ul{
+        
+        padding-top: 0.5rem;
+        
+    }
+
+    .banner{
+        width: 70%;        
+        padding: 30px 0px 20px 0px;       
+    }
+
+    .banner button{
+        padding: 11px 25px;
+        border-radius: 4%;
+        font-size: 15px;
+        font-weight: 700;
+        
+        margin-top: 20px;
+        
+    }
+
+    .banner span{
+        font-weight: 600;
+    }
+
+    .banner a{
+        font-size: 0.9rem;
+    }
+
+    .inner p{
+        
+        padding: 8px 15px;
+        font-weight: 500;
+        line-height: 23px;
+        margin: 4px 0px;
+        font-size: 0.9rem;
+        
+    }
+
+    .inner button {
+        padding: 7px 19px;
+        font-size: 0.9rem;
+        border-radius: 4px;
+        font-weight: 600;
+        margin-bottom: 27px;
+      
+    }
+
+    .inner { 
+        margin: 1.5rem 0rem;
+    }
+    
+ 
+    .textAndicon .para p {
+        padding-left: 3.2rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: justify;
+    }
+
+    .headingFa h3{
+        
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    .four-section {
+        padding-top: 2.2rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .headingFa .icon span {
+        font-size: 1.5rem;
+    }
+
+    .forPadding{
+        padding-top: 1.4rem;
+       
+    }
+
+    .textAndicon hr{
+    
+        padding-top: 1.4rem;
+    
+    }
+
+    .formInput p {
+        font-size: 1rem;
+        margin-top: 0.6rem;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        color: #ddd;
+    }
+
+    .ful-input button {
+        padding: 5px 17px;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 24px;
+       
+       
+    }
+
+    .ful-input {
+        
+        padding: 1.7rem 0rem;
+
+        
+    }
+
+    .formInput h1 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media only screen and (max-width:820px){
+    .banner button{
+        padding: 12px 26px;
+        font-size: 17px;
+        font-weight: 600;
+               
+    }
+
+    header ul{
+      
+        padding-left: 1rem;
+    }
+
+    header a{
+        
+        font-weight: 700;
+        font-size: 0.8rem;            
+        margin-right: 1rem;            
+        
+                              
+    }
+
+    .inner button {
+        padding: 8px 19px;
+        font-size: 1rem;     
+        font-weight: 600;
+        margin-bottom: 28px;
+      
+    }
+
+    .footer p{
+        font-size: 1rem;
+    }
+
+    .footer .no-border{
+        font-size: 1rem;
+    }
+
+    .ful-input button {
+        padding: 6px 18px;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 24px;
+       
+       
+    }
+
+    .banner button{
+        padding: 10px 23px;
+        border-radius: 4%;
+        font-size: 15px;
+        font-weight: 700;
+        
+        margin-top: 20px;
+        
+    }
+
+    .headingFa h3{
+        
+        font-weight: 600;
+        font-size: 1.5rem;    
+    }
+
+  
+
+  header h4{
+    
+    padding-left: 1rem;
+    font-size: 1rem;
+   }
+   
+   .header span{
+       padding-left: 0.7rem;
+       font-size: 1rem;
+   }
+
+   .formInput p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+   
+    color: #ddd;
+}
+}
+
+
+@media only screen and (max-width:775px){
+    header a{
+        
+        text-decoration: none;
+        font-size: 0.7rem;            
+        margin-right: 1rem;            
+        font-weight: 600;
+                              
+    }
+
+    .banner button{
+        padding: 8px 21px;
+        border-radius: 4%;
+        font-size: 15px;
+        font-weight: 700;
+        
+        margin-top: 20px;
+        
+    }
+
+    .inner button {
+        padding: 7px 19px;
+        font-size: 0.7rem;     
+        font-weight: 700;
+        margin-bottom: 25px;
+      
+    }
+
+    .headingFa h3{
+        
+       
+        font-size: 1.3rem;
+       
+    }
+
+ 
+}
+
+@media only screen and (max-width:710px){
+    header a{      
+        font-size: 0.7rem;                    
+        margin-right: 0.9rem;            
+        font-weight: 600;
+                                                     
+    }
+
+    header h4{      
+        font-size: 0.9rem;
+       }
+       
+       .header span{
+           padding-left: 0.7rem;
+           font-size: 0.9rem;
+       }
+
+       header ul{
+      
+        padding-left: 1.1rem;          
+        padding-top: 0.3rem;       
+    }
+}
+
+@media only screen and (max-width:715px){
+
+    .banner button{
+        padding: 8px 20px;
+        border-radius: 4%;
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    .three-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .three-section .inner{
+        width: 100%;
+    }
+
+    .inner img{
+        width: 100%;
+    }
+
+    .inner button {
+        padding: 8px 20px;
+        border-radius: 4%;
+        letter-spacing: 0.1rem;
+        font-size: 0.9rem;
+        font-weight: 700;
+      
+    }
+
+    .inner p{      
+        margin: 5px 0px;
+
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textAndicon{
+        width: 100%;
+    }
+
+    .headingFa .heading {
+        padding-left: 0rem;
+    }
+ 
+    .headingFa{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headingFa .heading{
+        width: 100%;
+    }
+
+    .headingFa .icon{
+        width: 100%;
+    }
+
+    .textAndicon hr{
+        
+        border: 0;
+        padding: 0;
+    }
+
+    .textAndicon{
+        
+        border-top: 1px solid rgb(238, 194, 194);
+        padding-top: 0;
+    }
+
+    .textAndicon:last-child{
+        border-bottom: 1px solid rgb(223, 183, 183);
+    }
+
+    .textAndicon .para p{
+        padding-right: 0;
+        padding-left: 0;
+        /**padding-left: 4.2rem;**/
+        font-weight: 600;
+        text-align: center;
+        line-height: 1.4rem;
+        letter-spacing: 0.1rem;       
+      
+    }
+
+    .headingFa .icon{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .formInput p {
+        font-size: 0.8rem;      
+        text-transform: uppercase;
+        margin-bottom: 2.3rem;
+        color: #ddd;
+        font-weight: 700;
+        line-height: 1.3rem;
+    }
+
+    .ful-input input{
+        width: 90%;
+        padding: 0.5rem 0.7rem;    
+    
+    }
+    
+    .ful-input textarea{
+        width: 90%;
+        padding: 0.5rem 0.7rem;
+           
+    }
+
+    .formInput ::placeholder{
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+}
+
+@media only screen and (max-width:655px){
+    header{
+        /**
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+        **/
+    }
+    
+    header .navicon{
+        display: block;
+       padding-top: 1.2rem;
+    }
+
+    .navicon .fa{
+        font-size: 1.2rem;
+        
+    }
+
+    header ul{
+      
+       display: none;
+       flex-direction: column;
+       /** flex-direction: row; **/
+        position: absolute;
+        top: 2.5rem;
+    }
+
+    header h4{
+        font-size: 1rem;
+    }
+
+    .footer{
+        padding: 30px 0px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    
+    .inner button {
+        padding: 7px 18px;
+        border-radius: 4%;
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+      
+    }
+
+    
+    .inner p{      
+        
+
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+
+    .banner a {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .banner p {
+        line-height: 27px;
+        font-weight: 500;
+        font-size: 00.9rem;
+        word-spacing: 1px;
+    }
+
+    .banner span {
+        font-weight: 700;
+    }
+
+    .banner button{
+        padding: 7px 18px;
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .headingFa h3 {
+       
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .textAndicon .para p{
+        font-size: 0.8rem;
+    }
+
+    .ful-input button{
+        padding: 7px 18px;
+        border-radius: 4%;
+        letter-spacing: 0.1rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .formInput{
+        width: 75%;
+    }
+
+    .footer{
+        padding: 20px 0px;
+    }
+
+}
+
+@media only screen and (max-width:450px){
+    .formInput h1{
+   
+       font-weight: 700;
+       font-size: 1.2rem;
+    }
+    
+    .formInput p{
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1.3rem;
+        
+    }
+
+    .footer{
+        padding: 10px 0px;
+    }
+
+    .mid-section span{
+        margin: 0px 6px;
+        padding: 6px;
+        
+    }
+
+    .mid-section .fa-google-plus{
+        padding: 10px;
+    }
+
+    header a {
+        font-size: 0.6rem;
+        
+        font-weight: 600;
+    }
+
+   
+
+}
+
+@media only screen and (max-width:340px){
+    .banner{
+        width: 100%;
+        
+    }
+
+    .banner p{
+        padding-top: 20px;
+    }
+
+    .mid-section .fa{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:310px){
+ 
+
+    .mid-section .fa-google-plus{
+        padding: 7px 7px;
+    }
+
+    .mid-section .fa-facebook{
+        padding: 7px 12px;
+    }
+
+    .mid-section .fa-twitter{
+    
+        padding: 7px 9px !important;
+    }
+}
